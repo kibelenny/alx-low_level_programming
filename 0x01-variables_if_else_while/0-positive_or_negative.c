@@ -3,10 +3,10 @@
 #include <stdio.h>
 /* more headers goes there */
 
+/* betty style doc for function main goes there */
 /**
- *betty style doc for function main goes there 
- *main - using an if condition
- *return : 0
+ * main - if loop
+ * return: 0
  */
 int main(void)
 {
