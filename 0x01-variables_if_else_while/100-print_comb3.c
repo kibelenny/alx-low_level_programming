@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 /**
  * main - return all 2 digit combo
  * Return : 0
