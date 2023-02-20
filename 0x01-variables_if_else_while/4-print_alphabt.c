@@ -2,7 +2,7 @@
 /**
  * main - if to filter letters
  *
- * Return: 0 
+ * Return: 0
  */
 
 int main(void)
