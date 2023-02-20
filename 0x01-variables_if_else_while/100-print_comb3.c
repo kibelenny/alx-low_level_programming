@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - return all 2 digit combo
- * Return : 0
+ * Return: 0
  */
 int main(void)
 {
