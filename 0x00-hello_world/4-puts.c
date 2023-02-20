@@ -2,6 +2,7 @@
 
 /**
  * main-this function uses puts to print
+ * Return: 0
  */
 int main(void)
 {
