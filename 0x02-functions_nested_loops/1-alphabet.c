@@ -1,12 +1,17 @@
 #include "main.h"
-
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_alphabet - does as it says
+ * No return
  */
-int main(void)
+void print_laphabet(void)
 {
-    print_alphabet();
-    return (0);
+	char c;
+
+        c = 'a';
+        while
+                (c <= 'z') {
+                        _putchar(c);
+                        c++;
+                }
+        _putchar('\n');
 }
