@@ -3,7 +3,7 @@
  * print_alphabet - does as it says
  * No return
  */
-void print_laphabet(void)
+void print_alphabet(void)
 {
 	char c;
 
