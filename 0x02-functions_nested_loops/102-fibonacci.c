@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int fib1 = 1, fib2 = 2, fib3, count;
+	unsigned long fib1 = 1, fib2 = 2, fib3, count;
 
 	printf("%d, %d", fib1, fib2);
 
