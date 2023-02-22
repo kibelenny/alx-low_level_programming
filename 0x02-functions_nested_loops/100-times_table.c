@@ -4,7 +4,7 @@
  * @n: max number for table
  * Return: none
  */
-int print_times_table(int n)
+void print_times_table(int n)
 {
 	int i;
 	int j;
