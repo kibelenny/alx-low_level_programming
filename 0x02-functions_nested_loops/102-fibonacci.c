@@ -8,14 +8,18 @@ int main(void)
 {
 	unsigned long fib1 = 1, fib2 = 2, fib3, count;
 
-	printf("%d, %d", fib1, fib2);
+	printf("%lu, %lu", fib1, fib2);
 
-	for (count = 0; count < 48; count++)
+	for (count = 0; count < 50; count++)
 	{
 		fib3 = fib1 + fib2;
-		printf(", %d", fib3);
+		printf(", %lu", fib3);
 		fib1 = fib2;
 		fib2 = fib3;
+		if (count == 49)
+			putchar('\n');
+		else
+			printf(", ");
 	}
 
 	printf("\n");
