@@ -2,7 +2,7 @@
 /**
  * _strncat - strcat upto n
  * @dest: str to be concat
- * @str: str to concat
+ * @src: str to concat
  * @n: most bytes for src
  * Return: Cpoied str
  */

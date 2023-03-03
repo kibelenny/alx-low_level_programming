@@ -4,7 +4,7 @@
  * @dest: dest to copy to
  * @src: str to copy from
  * @n: limit
- * @Return: copied str
+ * Return: copied str
  */
 char *_strncpy(char *dest, char *src, int n)
 {
