@@ -2,12 +2,14 @@
 /**
  * _strncat - strcat upto n
  * @dest: str to be concat
- * @char: str to concat
+ * @str: str to concat
  * @n: most bytes for src
+ * Return: Cpoied str
  */
 char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0, j = 0;
+
 	while (dest[i] != '\0')
 		i++;
 
@@ -18,5 +20,5 @@ char *_strncat(char *dest, char *src, int n)
 		j++;
 	}
 	dest[i] = '\0';
-	return dest;
+	return (dest);
 }
