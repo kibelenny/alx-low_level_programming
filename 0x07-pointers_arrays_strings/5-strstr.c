@@ -18,7 +18,7 @@ char* _strstr(char* haystack, char* needle)
 		while (*hay && *ned && *hay == *ned)
 		{
 			hay++;
-			ned++
+			ned++;
 		}
 		if (!*ned)
 			return (haystack);
