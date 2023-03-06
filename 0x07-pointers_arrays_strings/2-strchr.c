@@ -1,4 +1,4 @@
-#inlcude "main.h"
+#include "main.h"
 /**
  * *_strchr - locate char in str
  * @s: string to filter
