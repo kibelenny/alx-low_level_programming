@@ -15,7 +15,7 @@ char *str_concat(char *s1, char *s2)
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
-		S2 = "";
+		s2 = "";
 
 	while (s1[count_1] != '\0')
 		count_1++;
@@ -34,5 +34,4 @@ char *str_concat(char *s1, char *s2)
 	for (j = 0; j <= count_2; i++, j++)
 		strout[i] = s2[j];
 	return (strout);
-}
-	
+}	
