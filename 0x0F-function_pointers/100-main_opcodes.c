@@ -5,7 +5,16 @@ void print_opcodes(int num_bytes);
 
 int main(int argc, char *argv[])
 {
+	int num_bytes;
+
 	if (argc != 2)
+	{
+		printf("Error\n");
+		return (2);
+	}
+
+	num_bytes = atoi(argv[1]);
+	if (num_bytes < 0)
 	{
 		printf("Error\n");
 		return (2);
