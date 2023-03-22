@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 		return (2);
 	}
 
-	print_opcodes(int num_bytes);
+	print_opcodes(num_bytes);
 
 	return (0);
 }
