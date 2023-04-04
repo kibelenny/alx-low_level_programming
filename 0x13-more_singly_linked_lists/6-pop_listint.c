@@ -3,7 +3,6 @@
 /**
  * pop_listint - pops the first element in linked list
  * @head: linked list
- * 
  * Return: Value of popped element
  */
 
