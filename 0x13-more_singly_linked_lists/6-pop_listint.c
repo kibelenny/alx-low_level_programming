@@ -3,7 +3,8 @@
 /**
  * pop_listint - pops the first element in linked list
  * @head: linked list
- * @Return: Value of popped element
+ * 
+ * Return: Value of popped element
  */
 
 int pop_listint(listint_t **head)
