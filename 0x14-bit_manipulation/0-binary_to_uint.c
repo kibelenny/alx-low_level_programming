@@ -20,5 +20,5 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 		res = res * 2 + (b[i] - 48);
 	}
-	return (result);
+	return (res);
 }
