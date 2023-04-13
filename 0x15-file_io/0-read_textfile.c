@@ -1,4 +1,10 @@
 #include "main.h"
+/**
+ * read_textfile - reads and displays a text file
+ * @filename: name of file to display
+ * @letters: number of chars to read
+ * Return: printed chars
+ */
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
@@ -21,7 +27,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	}
 
-	while(total_read < letters)
+	while (total_read < letters)
 	{
 		rd = read(fd, buffer, letters - total_read);
 
